@@ -31,12 +31,12 @@ env\Scripts\activate
 # On macOS/Linux:
 source env/bin/activate
 
-Step 2: Install Project Dependencies
+### Step 2: Install Project Dependencies
 With the virtual environment active, install all required Python modules:
 
 pip install -r requirements.txt
 
-Step 3: Configure Your Gemini API Key
+### Step 3: Configure Your Gemini API Key
 The application utilizes the Gemini API via the google-genai SDK to analyze handwritten state diagrams.
 
 Obtain a free API Key from Google AI Studio.
@@ -46,7 +46,7 @@ Create a file named .env in the root folder of this project.
 Add your key inside the file like this:
 GEMINI_API_KEY=your_actual_api_key_here
 
-Step 4: 🏃 Run the Project:
+### Step 4: 🏃 Run the Project:
 Execute the following command in your terminal to launch the web interface:
 
 streamlit run app.py
